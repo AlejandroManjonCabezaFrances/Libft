@@ -6,7 +6,7 @@
 /*   By: amanjon- <amanjon-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/12 09:59:56 by amanjon-          #+#    #+#             */
-/*   Updated: 2023/05/22 11:11:26 by amanjon-         ###   ########.fr       */
+/*   Updated: 2024/02/28 15:10:38 by amanjon-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,5 +67,6 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *));
 void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 char	**ft_split(char const *s, char c);
+void	*ft_realloc(void *ptr, size_t len, size_t size);
 
 #endif

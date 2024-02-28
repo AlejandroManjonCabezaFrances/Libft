@@ -6,11 +6,11 @@
 /*   By: amanjon- <amanjon-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 09:26:30 by amanjon-          #+#    #+#             */
-/*   Updated: 2023/02/09 11:18:35 by amanjon-         ###   ########.fr       */
+/*   Updated: 2024/02/28 15:21:44 by amanjon-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
@@ -31,11 +31,11 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	return (dst1);
 }
 
-/* int	main(void)
-{
-	char	dst[20];
-	char	src[20] = "hola que tal";
-	printf("%s\n", memcpy(dst, src, 3));
-	printf("%s", ft_memcpy(dst, src, 3));
-	return (0);
-} */
+// int	main(void)
+// {
+// 	char	dst[20];
+// 	char	src[20] = "hola que tal";
+// 	printf("%s\n", memcpy(dst, src, 3));
+// 	printf("%s", ft_memcpy(dst, src, 3));
+// 	return (0);
+// }
